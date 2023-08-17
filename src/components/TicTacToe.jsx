@@ -49,7 +49,7 @@ export default function TicTacToe() {
 
   return (
     <>
-      <div className="flex flex-col text-center mt-10">
+      <div className="flex flex-col text-center">
         <div className="mb-8">
           <h1 className="text-[48px] font-semibold font-poppins [text-shadow:_0_2px_5px_rgb(0_0_0_/_20%)]">
             TicTacToe

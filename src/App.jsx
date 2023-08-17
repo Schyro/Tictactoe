@@ -3,9 +3,9 @@ import TicTacToe from "./components/TicTacToe";
 function App() {
   return (
     <>
-      <main className="h-screen flex flex-col justify-center items-center">
+      <main className="h-screen flex justify-center items-center">
         <TicTacToe />
-        <div className="flex flex-1 mb-5 items-end font-robotomono text-[12px] [text-shadow:_0_2px_5px_rgb(0_0_0_/_20%)]">
+        <div className="absolute bottom-3 font-robotomono text-[12px] [text-shadow:_0_2px_5px_rgb(0_0_0_/_20%)]">
           <span>
             TicTacToe with{" "}
             <a
